@@ -1,0 +1,170 @@
+html {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    text-overflow: clip;
+    margin: 30px;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 2;
+      border-radius: 25px;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(33, 101, 156, 0.548);
+      font-size: 14px;
+      text-align: center;
+    }
+    
+    li {
+      float: left;
+      text-align: center;
+      margin: auto;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color:rgba(33, 101, 156, 0.548);
+      border-radius: 25px;
+      color: #111;
+    }
+    
+  
+  h1,h2,h3,h4,h5,h6,title,button,label,main {
+      color:white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    background-color: rgba(33, 101, 156, 0.548);
+    border-color: #123;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 15px;
+    scroll-behavior: smooth;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(33, 101, 156, 0.548);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(33, 101, 156, 0.548);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(33, 101, 156);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+  }
+  
+  div {
+    margin: 5px;
+  }
+  
+  .btn-group button {
+    background-color: darkgray;
+    border: 1px #123; 
+    color: rgba(33, 101, 156, 0.548); 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    border-radius: 25px;
+  }
+  
+  .btn-group button:hover{
+    background-color: rgb(33, 101, 156);
+    color: white;
+  }
+  
+  button {
+    background-color: darkgray; 
+    border: 1px #123; 
+    color: rgba(33, 101, 156, 0.548); 
+    padding: 10px 24px;
+    cursor: pointer; 
+    float: left; 
+    border-radius: 25px;
+  }
+  
+  button:hover{
+    background-color: rgb(33, 101, 156);
+    color: white;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: rgb(33, 101, 156,);
+  }
+  
+  .btn-group button:selection {
+    border-color: blue;
+    user-select: auto;
+  }
+  
+  .tds-option_group {
+    border: 5px;
+    border-color: #012;
+    border-radius: 25px;
+    color: black;
+    align-items: center;
+    vertical-align: 100px;
+    float: left;
+    margin: 20px;
+  }
+  
+  .tds-option_group1 {
+    border: 5px;
+    border-color: #012;
+    border-radius: 25px;
+    color: black;
+    align-items: center;
+    vertical-align: 100px;
+  }
+  
+  div2 {
+    margin: 20px;
+    text-shadow: black;
+  }
+  
+  main {
+    border-radius: 25px;
+  }
+  
+  a {
+    border-color: black;
+  }
